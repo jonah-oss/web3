@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Simple Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      margin-top: 10px;
+    }
+    nav a {
+      color: #333;
+      padding: 10px 15px;
+      text-decoration: none;
+      margin: 0 10px;
+      background-color: #fff;
+      border-radius: 5px;
+    }
+    nav a:hover {
+      background-color: #ddd;
+    }
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+    footer {
+      background-color: #FF0000;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fuss and Feed</h1>
+    <p>A little business based around your pets!
+</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>My dream</h2>
+    <p class="big-text">Feeding and caring for your furry and fluffy companions is more than just a job for me—it’s my true passion and calling. I understand how much your pets mean to you and how vital it is to feel confident that they are not only looked after but truly loved and cherished in your absence. Whether you’re traveling for a business trip, tackling a busy day at work, or taking a well-earned holiday, I’m here to ensure your beloved companions receive the attention, care, and affection they deserve.
+ 
+
+From providing plenty of belly rubs, chin scratches, and gentle cuddles, I strive to make their days as joyful and comforting as possible. I take care to follow any special feeding instructions, ensuring they receive their meals on time and with the same love and attention you would give them yourself. Whether it’s measuring out the perfect portion, offering their favorite treats, or keeping their water bowl full and fresh, I ensure no detail is overlooked when it comes to their well-being.
+
+
+Each pet has their own unique personality and preferences, and I take the time to get to know them, ensuring they feel safe, happy, and secure in my care. Whether it’s playing fetch in the garden, brushing their coat, or simply sitting with them for quiet company, I treat every pet as if they were part of my own family.
+
+My goal is to create a calm, stress-free environment for your furry friends, where they feel loved and cared for at all times. I take pride in building trust and forming genuine bonds with the pets I look after, because their well-being and happiness are always my top priorities. Knowing that they are content, well-fed, and cared for allows you to enjoy your time away with complete peace of mind. After all, nothing brings me more joy than seeing wagging tails, content purrs, and the comfort of a happy, relaxed, and well-nourished pet.</p>
+  </section>
+
+  <section id="about">
+    <h2>About my services</h2>
+    <p>I will personally visit your residence at the prearranged time, ensuring that I provide your pet with the highest level of care and attention during your absence. Upon arrival, I will take great care in meticulously ensuring that your pet is well-fed with the appropriate food and that it receives an adequate amount of physical and emotional attention. I will dedicate myself entirely to nurturing your pet, offering it both companionship and comfort in its familiar surroundings. Throughout my visit, I will make it my priority to create a safe, peaceful, and caring environment, ensuring your pet’s well-being, happiness, and security while you are away. Rest assured, your pet will be in capable hands, receiving the love and care it deserves.</p>
+  </section>
+  
+  <section id="priceing">
+    <h2>Pet Care Services Price Sheet</h2>
+    <p>Basic Care Package:
+Fuss and Feed – £6
+Includes feeding your pet and providing them with attention, affection, and comfort during my visit.                                                                                                                           
+
+Additional Services:
+
+Walk Service – £7
+A 30-minute walk to keep your pet active and happy.
+
+
+For any inquiries or to schedule a service, feel free to contact me!</p>
+
+  <section id="contact">
+    <h2>Contact Section</h2>
+    <p>Feel free to reach out through the contact form.</p>
+    <form onsubmit="showMessage(event)">
+      <input type="email" id="email" placeholder="Enter your email" required>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+
+  <script>
+    function showMessage(event) {
+      event.preventDefault();
+      alert("Thank you for reaching out. I will get back to you soon!");
+    }
+  </script>
+</body>
+</html>
